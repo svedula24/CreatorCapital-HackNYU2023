@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Portfolio</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="../static/img/logo.png" rel="icon">
+  <link href="../static/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="../static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../static/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../static/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="../static/vendor/quill/quill.snow.css" rel="stylesheet">
+  <link href="../static/vendor/quill/quill.bubble.css" rel="stylesheet">
+  <link href="../static/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="../static/vendor/simple-datatables/style.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="../static/css/style.css" rel="stylesheet">
+
+  
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+
+    <div class="d-flex align-items-center justify-content-between">
+      <a href="home.html" class="logo d-flex align-items-center">
+        <img src="../static/img/logo.png" alt="">
+        <span class="d-none d-lg-block">Creator Capital</span>
+      </a>
+      <i class="bi bi-list toggle-sidebar-btn"></i>
+    </div><!-- End Logo -->
+
+    <nav class="header-nav ms-auto">
+      <ul class="d-flex align-items-center">
+
+        <li class="nav-item d-block d-lg-none">
+          <a class="nav-link nav-icon search-bar-toggle " href="#">
+            <i class="bi bi-search"></i>
+          </a>
+          
+        </li><!-- End Search Icon-->
+        
+        <div class="deposit-money" style="margin-right: 10px;">
+          <a href="deposit.html" class="btn btn-primary">Deposit Money</a>
+        </div>
+
+        <li class="nav-item dropdown">
+
+          <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+            <i class="bi bi-bell"></i>
+            <span class="badge bg-primary badge-number">4</span>
+          </a><!-- End Notification Icon -->
+          
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow notifications">
+            <li class="dropdown-header">
+              You have 4 new notifications
+              <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">View all</span></a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-exclamation-circle text-warning"></i>
+              <div>
+                <h4>Transfer In Progress</h4>
+                <p>Your instant transfer of $40.00 from your Visa Debit Card ending in 1298 was deposited into your account.</p>
+                <p>30 min. ago</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-x-circle text-danger"></i>
+              <div>
+                <h4>Order Declined - Mr. Beast Production Company</h4>
+                <p>Your order to buy $40.00 of MBPC has been DECLINED due to insufficient funds in your account.</p>
+                <p>1 hr. ago</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-check-circle text-success"></i>
+              <div>
+                <h4>Approved - Mr. Beast Production Company</h4>
+                <p>Hooray! Your order to buy $40.00 of MBPC has been approved throught your account at the best available price. If this order isn't filled by the end of market hours today (4:00 PM EST), it will expire.</p>
+                <p>2 hrs. ago</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-info-circle text-primary"></i>
+              <div>
+                <h4>Account Information</h4>
+                <p>Please Verify Your Email Address</p>
+                <p>4 hrs. ago</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li class="dropdown-footer">
+              <a href="#">Show all notifications</a>
+            </li>
+
+          </ul><!-- End Notification Dropdown Items -->
+
+        </li><!-- End Notification Nav -->
+
+       
+
+        </li><!-- End Messages Nav -->
+
+        <li class="nav-item dropdown pe-3">
+
+          <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
+            <img src="../static/img/profile-img.jpg" alt="Profile" class="rounded-circle">
+            <span class="d-none d-md-block dropdown-toggle ps-2">J. Smith</span>
+          </a><!-- End Profile Iamge Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+            <li class="dropdown-header">
+              <h6>John Smith</h6>
+              <span>Investor</span>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                <i class="bi bi-person"></i>
+                <span>My Profile</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                <i class="bi bi-gear"></i>
+                <span>Account Settings</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+          
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="pages-login.html">
+                <i class="bi bi-box-arrow-right"></i>
+                <span>Sign Out</span>
+              </a>
+            </li>
+
+          </ul><!-- End Profile Dropdown Items -->
+        </li><!-- End Profile Nav -->
+
+      </ul>
+    </nav><!-- End Icons Navigation -->
+
+  </header><!-- End Header -->
+
+  <!-- ======= Sidebar ======= -->
+  <aside id="sidebar" class="sidebar">
+
+    <ul class="sidebar-nav" id="sidebar-nav">
+
+      <li class="nav-item">
+        <a class="nav-link " href="home.html">
+          <i class="bi bi-grid"></i>
+          <span>Portfolio</span>
+        </a>
+      </li><!-- End Dashboard Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="invest.html">
+          <i class="bi bi-currency-dollar"></i>
+          <span>Invest</span>
+        </a>
+      </li><!-- End F.A.Q Page Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="about_us.html">
+          <i class="bi bi-people"></i>
+          <span>About Us</span>
+        </a>
+      </li><!-- End Contact Page Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="contact.html">
+          <i class="bi bi-envelope"></i>
+          <span>Contact</span>
+        </a>
+      
+      </li><!-- End Tables Nav -->
+
+
+
+     
+
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="users-profile.html">
+          <i class="bi bi-person"></i>
+          <span>Profile</span>
+        </a>
+      </li><!-- End Profile Page Nav -->
+
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="referrals.html">
+          <i class="bi bi-card-list"></i>
+          <span>Referrals</span>
+        </a>
+      </li><!-- End Register Page Nav -->
+
+
+
+
+
+
+  </aside><!-- End Sidebar-->
+
+  <main id="main" class="main">
+
+    <div class="pagetitle">
+      <h1>Portfolio</h1>
+      <nav>
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="home.html">Home</a></li>
+          <li class="breadcrumb-item active">Portfolio</li>
+        </ol>
+      </nav>
+    </div><!-- End Page Title -->
+
+    <section class="section dashboard">
+      <div class="row">
+
+        <!-- Left side columns -->
+        <div class="col-lg-8">
+          <div class="row">
+
+
+            <!-- Revenue Card -->
+            <div class="col-xxl-4 col-md-6">
+              <div class="card info-card revenue-card">
+
+                <div class="filter">
+                  <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+                  <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                    <li class="dropdown-header text-start">
+                      <h6>Filter</h6>
+                    </li>
+
+                    <li><a class="dropdown-item" href="#">Today</a></li>
+                    <li><a class="dropdown-item" href="#">This Month</a></li>
+                    <li><a class="dropdown-item" href="#">This Year</a></li>
+                  </ul>
+                </div>
+
+                <div class="card-body">
+                  <h5 class="card-title">Revenue <span>| This Month</span></h5>
+
+                  <div class="d-flex align-items-center">
+                    <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                      <i class="bi bi-currency-dollar"></i>
+                    </div>
+                    <div class="ps-3">
+                      <h6>$3,264</h6>
+                      <span class="text-success small pt-1 fw-bold">8%</span> <span class="text-muted small pt-2 ps-1">increase</span>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div><!-- End Revenue Card -->
+
+            <!-- Buying Power Card -->
+            <div class="col-xxl-4 col-md-6">
+              <div class="card info-card Buying Power-card">
+
+               
+
+                <div class="card-body">
+                  <h5 class="card-title">Buying Power <span></span></h5>
+
+                  <div class="d-flex align-items-center">
+                    <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                      <i class="bi-lightning-fill"></i>
+                    </div>
+                    <div class="ps-3">
+                      <h6>$145.63</h6>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div><!-- End Buying Power Card -->
+
+            <!-- Top Investments Card -->
+            <div class="col-xxl-4 col-xl-12">
+
+              <div class="card info-card Top Investments-card">
+
+                <div class="filter">
+                  <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+                  <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                    <li class="dropdown-header text-start">
+                      <h6>Filter</h6>
+                    </li>
+
+                    <li><a class="dropdown-item" href="#">Today</a></li>
+                    <li><a class="dropdown-item" href="#">This Month</a></li>
+                    <li><a class="dropdown-item" href="#">This Year</a></li>
+                  </ul>
+                </div>
+
+                <div class="card-body">
+                  <h5 class="card-title">Top Investment <span></span></h5>
+
+                  <div class="d-flex align-items-center">
+                    <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                      <i class="bi bi-people"></i>
+                    </div>
+                    <div class="ps-3">
+                      <h6><span class="small" style="font-size: 18px;">Mr.</span><span style="font-size: 18px;">Beast</span></h6>
+                      <span class="text-success small pt-1 fw-bold" style="font-size: 12px;">12%</span> <span class="text-muted small pt-2 ps-1" style="font-size: 12px;">increase</span>
+                  </div> 
+                  </div>
+
+                </div>
+              </div>
+
+            </div><!-- End Top Investments Card -->
+
+            <!-- Reports -->
+            <div class="col-12">
+              <div class="card">
+
+                <div class="filter">
+                  <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+                  <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                    <li class="dropdown-header text-start">
+                      <h6>Filter</h6>
+                    </li>
+
+                    <li><a class="dropdown-item" href="#">Today</a></li>
+                    <li><a class="dropdown-item" href="#">This Month</a></li>
+                    <li><a class="dropdown-item" href="#">This Year</a></li>
+                  </ul>
+                </div>
+
+                <div class="card-body">
+                  <h5 class="card-title">Investing ($) <span>/Today</span></h5>
+
+                  <!-- Line Chart - Today -->
+                  <div id="reportsChart"></div>
+
+                  <script>
+                    document.addEventListener("DOMContentLoaded", () => {
+                      new ApexCharts(document.querySelector("#reportsChart"), {
+                        series: [{
+                          name: 'Your Investment in ($)',
+                          data: [60884, 61943, 61848, 62028, 61990, 62000, 62220],
+                        }],
+                        chart: {
+                          height: 350,
+                          type: 'area',
+                          toolbar: {
+                            show: false
+                          },
+                        },
+                        markers: {
+                          size: 4
+                        },
+                        colors: ['#4154f1', '#2eca6a', '#ff771d'],
+                        fill: {
+                          type: "gradient",
+                          gradient: {
+                            shadeIntensity: 1,
+                            opacityFrom: 0.3,
+                            opacityTo: 0.4,
+                            stops: [0, 90, 100]
+                          }
+                        },
+                        dataLabels: {
+                          enabled: false
+                        },
+                        stroke: {
+                          curve: 'smooth',
+                          width: 2
+                        },
+                        xaxis: {
+                          type: 'datetime',
+                          categories: ["2018-09-19T00:00:00.000Z", "2018-09-19T01:30:00.000Z", "2018-09-19T02:30:00.000Z", "2018-09-19T03:30:00.000Z", "2018-09-19T04:30:00.000Z", "2018-09-19T05:30:00.000Z", "2018-09-19T06:30:00.000Z"]
+                        },
+                        tooltip: {
+                          x: {
+                            format: 'dd/MM/yy HH:mm'
+                          },
+                        }
+                      }).render();
+                    });
+                  </script>
+                  <!-- End Line Chart - Today -->
+
+                </div>
+
+              </div>
+            </div><!-- End Reports -->
+
+            <!-- Recent Buying Power -->
+            <div class="col-12">
+              <div class="card recent-Buying Power overflow-auto">
+
+                <div class="filter">
+                  <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+                  <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                    <li class="dropdown-header text-start">
+                      <h6>Filter</h6>
+                    </li>
+
+                    <li><a class="dropdown-item" href="#">Today</a></li>
+                    <li><a class="dropdown-item" href="#">This Month</a></li>
+                    <li><a class="dropdown-item" href="#">This Year</a></li>
+                  </ul>
+                </div>
+
+                <div class="card-body">
+                  <h5 class="card-title">Recent Investments <span>| Today</span></h5>
+
+                  <table class="table table-borderless datatable">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Creator Ticker</th>
+                        <th scope="col">Creator</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">Status</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row"><a href="#">#0042</a></th>
+                        <td>MBPC</td>
+                        <td><a href="mr_beast.html" class="text-primary">Mr.Beast</a></td>
+                        <td>$40.00</td>
+                        <td><span class="badge bg-warning">In Progress</span></td>
+                      </tr>
+                      <tr>
+                        <th scope="row"><a href="#">#0041</a></th>
+                        <td>MBPC</td>
+                        <td><a href="mr_beast.html" class="text-primary">Mr.Beast</a></td>
+                        <td>$40.00</td>
+                        <td><span class="badge bg-danger">Declined</span></td>
+                      </tr>
+                      <tr>
+                        <th scope="row"><a href="#">#0040</a></th>
+                        <td>MBPC</td>
+                        <td><a href="mr_beast.html" class="text-primary">Mr.Beast</a></td>
+                        <td>$40.00</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                      </tr>
+                      <tr>
+                        <th scope="row"><a href="#">#0039</a></th>
+                        <td>PDP</td>
+                        <td><a href="pewdiepie.html" class="text-primary">Pew Die Pie</a></td>
+                        <td>$32.57</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                      </tr>
+                      <tr>
+                        <th scope="row"><a href="#">#0038</a></th>
+                        <td>LPLLC</td>
+                        <td><a href="logan_paul.html" class="text-primary">Logan Paul</a></td>
+                        <td>$62.38</td>
+                        <td><span class="badge bg-success">Approved</span></td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                </div>
+
+              </div>
+            </div><!-- End Recent Buying Power -->
+
+            <!-- Top Stocks -->
+            <div class="col-12">
+              <div class="card top-selling overflow-auto">
+
+                <div class="filter">
+                  <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+                  <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                    <li class="dropdown-header text-start">
+                      <h6>Filter</h6>
+                    </li>
+
+                    <li><a class="dropdown-item" href="#">Today</a></li>
+                    <li><a class="dropdown-item" href="#">This Month</a></li>
+                    <li><a class="dropdown-item" href="#">This Year</a></li>
+                  </ul>
+                </div>
+
+                <div class="card-body pb-0">
+                  <h5 class="card-title">Top Creators <span>| Today</span></h5>
+
+                  <table class="table table-borderless">
+                    <thead>
+                      <tr>
+                        <th scope="col">Preview</th>
+                        <th scope="col">Creator</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">Active Projects</th>
+                        <th scope="col">Creator Ticker</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row"><a href="mr_beast.html"><img src="../static/img/beast.png" alt=""></a></th>
+                        <td><a href="mr_beast.html" class="text-primary fw-bold">Mr.Beast</a></td>
+                        <td>$10.00</td>
+                        <td class="fw-bold">12</td>
+                        <td>MBPC</td>
+                      </tr>
+                      <tr>
+                        <th scope="row"><a href="charli.html"><img src="../static/img/damelio.png" alt=""></a></th>
+                        <td><a href="charli.html" class="text-primary fw-bold">Charli Damelio</a></td>
+                        <td>$9.60</td>
+                        <td class="fw-bold">28</td>
+                        <td>CDC</td>
+                      </tr>
+                      <tr>
+                        <th scope="row"><a href="justin_bieber.html"><img src="../static/img/bieber.png" alt=""></a></th>
+                        <td><a href="justin_bieber.html" class="text-primary fw-bold">Justin Bieber</a></td>
+                        <td>$9.29</td>
+                        <td class="fw-bold">2</td>
+                        <td>JBM</td>
+                      </tr>
+                      <tr>
+                        <th scope="row"><a href="logan_paul.html"><img src="../static/img/paul.png" alt=""></a></th>
+                        <td><a href="logan_paul.html" class="text-primary fw-bold">Logan Paul</a></td>
+                        <td>$9.19</td>
+                        <td class="fw-bold">18</td>
+                        <td>LPLLC</td>
+                      </tr>
+                      <tr>
+                        <th scope="row"><a href="the_rock.html"><img src="../static/img/rock.png" alt=""></a></th>
+                        <td><a href="the_rock.html" class="text-primary fw-bold">Dwayne "The Rock" Johnson</a></td>
+                        <td>$9.07</td>
+                        <td class="fw-bold">5</td>
+                        <td>ROCK</td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                </div>
+
+              </div>
+            </div><!-- End Top Selling -->
+
+          </div>
+        </div><!-- End Left side columns -->
+
+        <!-- Right side columns -->
+        <div class="col-lg-4">
+
+          <!-- Recent Activity -->
+          <div class="card">
+            <div class="filter">
+              <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+              <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                <li class="dropdown-header text-start">
+                  <h6>Filter</h6>
+                </li>
+
+                <li><a class="dropdown-item" href="#">Today</a></li>
+                <li><a class="dropdown-item" href="#">This Month</a></li>
+                <li><a class="dropdown-item" href="#">This Year</a></li>
+              </ul>
+            </div>
+
+            <div class="card-body">
+              <h5 class="card-title">Trending <span>| Today</span></h5>
+
+              <div class="activity">
+
+                <div class="activity-item d-flex">
+                  <div class="activite-label">12 min</div>
+                  <i class='bi bi-circle-fill activity-badge text-danger align-self-start'></i>
+                  <div class="activity-content">
+                    Mr.Beast puts up potential <a href="https://twitter.com/MrBeast/status/1625584585290440727?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet" class="fw-bold text-dark">SUPER BOWL AD</a> onto Twitter
+                  </div>
+                </div><!-- End activity item-->
+
+                <div class="activity-item d-flex">
+                  <div class="activite-label">30 min</div>
+                  <i class='bi bi-circle-fill activity-badge text-success align-self-start'></i>
+                  <div class="activity-content">
+                    YouTube CEO <a href="https://apnews.com/article/technology-streaming-media-susan-wojcicki-business-social-19e18ebcd986490e0ff9e66e429d66c2" class="fw-bold text-dark">STEPS DOWN</a>, severing longtime ties to Google
+                  </div>
+                </div><!-- End activity item-->
+
+                <div class="activity-item d-flex">
+                  <div class="activite-label">1 hr</div>
+                  <i class='bi bi-circle-fill activity-badge text-warning align-self-start'></i>
+                  <div class="activity-content">
+                    Metro Boomin Drops <a href= "https://hypebeast.com/2023/2/metro-boomin-heroes-villains-villains-version-album-stream-choppednotslopped" class="fw-bold text-dark">'HEROES & VILLAINS'</a> (Villains Version)
+                  </div>
+                </div><!-- End activity item-->
+
+                <div class="activity-item d-flex">
+                  <div class="activite-label">2 hrs</div>
+                  <i class='bi bi-circle-fill activity-badge text-pending align-self-start'></i>
+                  <div class="activity-content">
+<a href= "https://techcrunch.com/2023/02/16/instagram-broadcast-chat-feature-channels/" class=" text-dark">Instagram launches a new broadcast chat feature called ‘Channels’</a>
+                  </div>
+                </div><!-- End activity item-->
+
+
+                <div class="activity-item d-flex">
+                  <div class="activite-label">1 hr</div>
+                  <i class='bi bi-circle-fill activity-badge text-warning align-self-start'></i>
+                  <div class="activity-content">
+                    <a href= "https://www.ign.com/articles/paramount-plus-becomes-latest-streaming-service-to-announce-price-hike" class=" text-dark">Paramount Plus Becomes Latest Streaming Service to Announce Price Hike</a>
+                  </div>
+                </div><!-- End activity item-->
+
+                
+
+              </div>
+
+            </div>
+          </div><!-- End Recent Activity -->
+
+          <!-- Budget Report -->
+          <div class="card">
+            <div class="filter">
+              <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+              <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                <li class="dropdown-header text-start">
+                  <h6>Filter</h6>
+                </li>
+
+                <li><a class="dropdown-item" href="#">Today</a></li>
+                <li><a class="dropdown-item" href="#">This Month</a></li>
+                <li><a class="dropdown-item" href="#">This Year</a></li>
+              </ul>
+            </div>
+
+            <div class="card-body pb-0">
+              <h5 class="card-title">Budgeting <span>| This Month</span></h5>
+
+              <div id="budgetChart" style="min-height: 400px;" class="echart"></div>
+
+              <script>
+                document.addEventListener("DOMContentLoaded", () => {
+                  var budgetChart = echarts.init(document.querySelector("#budgetChart")).setOption({
+                    legend: {
+                      data: ['Allocated Budget', 'Actual Spending']
+                    },
+                    radar: {
+                      // shape: 'circle',
+                      indicator: [{
+                          name: 'YouTube',
+                          max: 6500
+                        },
+                        {
+                          name: 'TikTok',
+                          max: 16000
+                        },
+                        {
+                          name: 'Music',
+                          max: 30000
+                        },
+                        {
+                          name: 'Streaming Services',
+                          max: 38000
+                        },
+                        {
+                          name: 'Instagram',
+                          max: 52000
+                        },
+                        {
+                          name: 'Cable',
+                          max: 25000
+                        }
+                      ]
+                    },
+                    series: [{
+                      name: 'Budget vs spending',
+                      type: 'radar',
+                      data: [{
+                          value: [4200, 3000, 20000, 35000, 50000, 18000],
+                          name: 'Allocated Budget'
+                        },
+                        {
+                          value: [5000, 14000, 28000, 26000, 42000, 21000],
+                          name: 'Actual Spending'
+                        }
+                      ]
+                    }]
+                  });
+                });
+              </script>
+
+            </div>
+          </div><!-- End Budget Report -->
+
+          
+
+          <!-- News & Updates Traffic -->
+          <div class="card">
+            <div class="filter">
+              <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+              <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                <li class="dropdown-header text-start">
+                  <h6>Filter</h6>
+                </li>
+
+                <li><a class="dropdown-item" href="#">Today</a></li>
+                <li><a class="dropdown-item" href="#">This Month</a></li>
+                <li><a class="dropdown-item" href="#">This Year</a></li>
+              </ul>
+            </div>
+
+            <div class="card-body pb-0">
+              <h5 class="card-title">Insider News <span>| Today</span></h5>
+
+              <div class="news">
+                <div class="post-item clearfix">
+                  <img src="../static/img/thumbnail1.png" alt="">
+                  <h4><a href="https://www.theguardian.com/media/2023/feb/15/tiktok-deinfluencers-trend-saving-money">TikTok ‘deinfluencers’ tap into trend for saving money</a></h4>
+                  <p>Social media content creators are increasingly advising followers against expensive purchases</p>
+                </div>
+
+                <div class="post-item clearfix">
+                  <img src="../static/img/thumbnail2.png" alt="">
+                  <h4><a href="https://www.prdaily.com/9-new-social-media-features-you-should-know-about-this-week/">9 new social media features you should know about this week</a></h4>
+                  <p>We took a week off from new social media features due to, well, a lack of new social media features. But app product teams have been hard at work rolling out new updates, cutting features and tweaking oversight and ad features. Let’s get into it.</p>
+                </div>
+
+                <div class="post-item clearfix">
+                  <img src="../static/img/thumbnail3.png" alt="">
+                  <h4><a href="https://www.eater.com/23603241/buying-food-from-tiktok-social-media-influencers-chef-pii-pink-sauce-pickle-me-everything">Please Stop Buying Food From Social Media Influencers</a></h4>
+                  <p>When we buy food off of TikTok, what are we getting, really?</p>
+                </div>
+
+                <div class="post-item clearfix">
+                  <img src="../static/img/thumbnail4.png" alt="">
+                  <h4><a href="https://who13.com/news/how-young-is-too-young-for-kids-to-join-social-media/">How young is too young for kids to join social media?</a></h4>
+                  <p>Smartphones are a ubiquitous part of American life, and with them come social media apps like TikTok and Twitter. The technology is in all of our hands, but is the connected world of social media detrimental to children and teenagers?</p>
+                </div>
+
+              </div><!-- End sidebar recent posts-->
+
+            </div>
+          </div><!-- End News & Updates -->
+
+        </div><!-- End Right side columns -->
+
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+    <div class="copyright">
+      &copy; Copyright <strong><span>Creator Capital</span></strong>. All Rights Reserved
+    </div>
+    <div class="credits">
+      
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="../static/vendor/apexcharts/apexcharts.min.js"></script>
+  <script src="../static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../static/vendor/chart.js/chart.umd.js"></script>
+  <script src="../static/vendor/echarts/echarts.min.js"></script>
+  <script src="../static/vendor/quill/quill.min.js"></script>
+  <script src="../static/vendor/simple-datatables/simple-datatables.js"></script>
+  <script src="../static/vendor/tinymce/tinymce.min.js"></script>
+  <script src="../static/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="../static/js/main.js"></script>
+
+</body>
+
+</html>
