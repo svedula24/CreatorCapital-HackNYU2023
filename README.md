@@ -40,7 +40,7 @@ We also want to create a mobile version of our application, Here is what we have
 
 ## Overview
 
-This repository contains the source code for a Mobile Investment iOS App developed in Swift and Python, with MongoDB as the backend database. The project was initially created in February 2023 and was recognized as the HackNYU Finance Track Winner.
+We are still in the development phase for our Mobile Investment iOS App, and therefore can not make that repository public. We developed the app in Swift and Python, with MongoDB as the backend database. The project was initially created in February 2023 and was recognized as the HackNYU Finance Track Winner.
 
 ## Project Description
 
