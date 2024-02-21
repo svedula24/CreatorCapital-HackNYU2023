@@ -34,38 +34,49 @@ Moving forward, we have several plans for our investment platform for content cr
 
 We also want to create a mobile version of our application, Here is what we have worked on:
 
-Overview
+Certainly! Here's an expanded version of your README:
+
+---
+
+# Mobile Investment iOS App for YouTube Creators
+
+![App Logo](link/to/app-logo.png) <!-- Replace with your app logo image link -->
+
+## Overview
+
 This repository contains the source code for a Mobile Investment iOS App developed in Swift and Python, with MongoDB as the backend database. The project was initially created in February 2023 and was recognized as the HackNYU Finance Track Winner.
 
-Project Description
+## Project Description
+
 The Mobile Investment iOS App is designed to cater specifically to YouTube Creators, providing them with a comprehensive platform for managing their investments. The app integrates with various APIs and incorporates features such as stock buy/sell functionality, deposit/withdrawal features, and dynamic stock graphs.
 
-Key Features
-User Profiles with Google OAuth:
+## Key Features
 
-Implemented user authentication using Google OAuth to ensure secure and seamless access to the app.
-Stock Buy/Sell Functionality:
+- **User Profiles with Google OAuth:**
+  - Implemented user authentication using Google OAuth to ensure secure and seamless access to the app.
 
-Enables YouTube Creators to buy and sell stocks directly from the app, providing a convenient investment experience.
-Deposit/Withdrawal Features:
+- **Stock Buy/Sell Functionality:**
+  - Enables YouTube Creators to buy and sell stocks directly from the app, providing a convenient investment experience.
 
-Integrated deposit and withdrawal features to facilitate easy management of funds within the app.
-YouTube API Integration:
+- **Deposit/Withdrawal Features:**
+  - Integrated deposit and withdrawal features to facilitate easy management of funds within the app.
 
-Utilized the YouTube API to gather relevant data about YouTube Creators, enhancing the user experience by providing personalized insights.
-Data Analysis with Pandas and Matplotlib:
+- **YouTube API Integration:**
+  - Utilized the YouTube API to gather relevant data about YouTube Creators, enhancing the user experience by providing personalized insights.
 
-Leveraged Pandas and Matplotlib to analyze stock data, generate profiles for YouTube Creators, and create dynamic stock graphs for better visualization.
-Technologies Used
-Swift:
+- **Data Analysis with Pandas and Matplotlib:**
+  - Leveraged Pandas and Matplotlib to analyze stock data, generate profiles for YouTube Creators, and create dynamic stock graphs for better visualization.
 
-The app's front-end is developed using Swift, a powerful and intuitive programming language for iOS development.
-Python:
+## Technologies Used
 
-Python is used for backend logic and data analysis, making use of libraries like Pandas and Matplotlib.
-MongoDB:
+- **Swift:**
+  - The app's front-end is developed using Swift, a powerful and intuitive programming language for iOS development.
 
-MongoDB serves as the backend database, storing user information, transactions, and other relevant data.
+- **Python:**
+  - Python is used for backend logic and data analysis, making use of libraries like Pandas and Matplotlib.
+
+- **MongoDB:**
+  - MongoDB serves as the backend database, storing user information, transactions, and other relevant data.
 
 
 
