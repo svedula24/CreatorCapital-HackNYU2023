@@ -32,15 +32,11 @@ We are proud that we were able to execute our content creator investment idea an
 ## What's next for Creator Capital
 Moving forward, we have several plans for our investment platform for content creators. We plan on developing more advanced tools for content creators, such as analytics dashboards and content management systems, to help them better manage and grow their platforms. We also want to partner with other platforms and services in the content creation industry to provide a more seamless and integrated experience for our users. We plan to expand our reach by expanding to new content creators and investors and building a stronger presence in the content creation industry.
 
-We also want to create a mobile version of our application, Here is what we have worked on:
-
-Certainly! Here's an expanded version of your README:
-
+We also want to create a mobile version of our application, Here is what we have worked on Beyond the Hackthon
 ---
 
 # Mobile Investment iOS App for YouTube Creators
 
-![App Logo](link/to/app-logo.png) <!-- Replace with your app logo image link -->
 
 ## Overview
 
